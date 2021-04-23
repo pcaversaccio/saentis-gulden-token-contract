@@ -1,0 +1,32 @@
+{
+  "name": "saentis-gulden-token-contract",
+  "version": "1.0.0",
+  "description": "This is Säntis Guldens ERC-20 preset smart contract, whose tokens are used as vouchers in their ecosystem.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.appswithlove.net:22222/saentis-gulden/saentis-gulden-token-contract.git"
+  },
+  "keywords": [
+    "smart",
+    "contract",
+    "saentis",
+    "gulden",
+    "btcs"
+  ],
+  "author": "Martin Moser & Pascal Marco Caversaccio, Apps with love AG",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@truffle/hdwallet-provider": "^1.2.6"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.7"
+  }
+}
