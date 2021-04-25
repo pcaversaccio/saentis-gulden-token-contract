@@ -31,10 +31,18 @@ truffle migrate --network development
 
 ### Rinkeby
 To deploy the smart contract to Rinkeby, you need to preconfigure first some things:
-1. Create a secret.json file.
-2. Create a MetaMask Wallet and paste the respective seedphrase into secrets.json. Make sure you got some ETH. Get some at https://faucet.rinkeby.io/.
-3. Create a new Infura project at https://infura.io/ and copy the project key into secrets.json.
-4. Create a Etherscan account and copy the API key to secrets.json.
+1. Create a `secrets.json` file.
+2. Create a MetaMask Wallet and paste the respective seedphrase into `secrets.json`. Make sure you got some ETH. Get some at https://faucet.rinkeby.io/.
+3. Create a new Infura project at https://infura.io/ and copy the project key into `secrets.json`.
+4. Create a Etherscan account and copy the API key to `secrets.json`.
+The file will look like the following (make sure to always `.gitignore` it!):
+```
+{
+    "seedPhrase": "drip voice crush ...",
+    "projectId": "a657e3934de84d64b27a256079a3b8a2",
+    "etherscanKey": "RQFAFV4DE1H75PT5KXVUFFYBWS82AXI59E"
+}
+```
 
 Now run the following command:
 ```
