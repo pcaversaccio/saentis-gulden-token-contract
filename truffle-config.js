@@ -17,6 +17,7 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWalletProvider({mnemonic: {phrase: seedPhrase}, providerOrUrl: `${config.rinkeby.url}/${projectId}`}),
       network_id: config.rinkeby.network_id,
+      networkCheckTimeout: config.rinkeby.network_check_timeout,
     },
     ropsten: {
       provider: () => new HDWalletProvider({mnemonic: {phrase: seedPhrase}, providerOrUrl: `${config.ropsten.url}/${projectId}`}),
