@@ -14,17 +14,19 @@
     "url": "ssh://git@gitlab.appswithlove.net:22222/saentis-gulden/saentis-gulden-token-contract.git"
   },
   "keywords": [
-    "smart",
-    "contract",
+    "smartcontract",
     "saentis",
     "gulden",
-    "btcs"
+    "btcs",
+    "ethereum",
+    "erc20",
+    "awl"
   ],
   "author": "Martin Moser & Pascal Marco Caversaccio, Apps with love AG",
   "license": "MIT",
   "dependencies": {
     "@openzeppelin/contracts": "^4.0.0",
-    "@truffle/hdwallet-provider": "^1.2.6"
+    "@truffle/hdwallet-provider": "^1.2.3"
   },
   "devDependencies": {
     "truffle-plugin-verify": "^0.5.7"
