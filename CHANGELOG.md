@@ -23,6 +23,7 @@ Furthermore, the following additions have been implemented:
 
 ### Fixed
 - Changed naming from `SantisGulden` to `SaentisGulden`;
+- `build` folder is now part of the `.gitignore`. I implemented the recommended OpenZeppelin `.gitignore` available [here](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/.gitignore).
 
 ## 23-04-2021
 
