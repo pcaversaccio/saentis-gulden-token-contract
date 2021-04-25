@@ -18,6 +18,7 @@ Furthermore, the following additions have been implemented:
 - The smart contract `SaentisGulden.sol` does not anymore support the extension `ERC20Snapshot` since this is not required in our use case;
 - The smart contract `SaentisGulden.sol` does now include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment);
 - In addition to some small wording fixes, the README has been updated with the information regarding the test deployments;
+- Removed `package-lock.json` from `.gitignore` since npm itself recommends committing the `package-lock.json` file. See [here](https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json).
 
 
 ### Fixed
