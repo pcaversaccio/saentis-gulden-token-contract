@@ -17,6 +17,7 @@ Furthermore, the following additions have been implemented:
 - In the `package.json` I added a couple of new keywords as well as downgraded the `@truffle/hdwallet-provider` to version `1.2.3` due to a recent and still existing bug in the latest Truffle release (see [here](https://stackoverflow.com/questions/66735307/truffle-contract-deployment-failed-invalid-sender));
 - The smart contract `SaentisGulden.sol` does not anymore support the extension `ERC20Snapshot` since this is not required in our use case;
 - The smart contract `SaentisGulden.sol` does now include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment);
+- In addition to some small wording fixes, the README has been updated with the information regarding the test deployments;
 
 
 ### Fixed
