@@ -58,19 +58,20 @@ Copy the contract address and verify the contract right away so that you can int
 truffle run verify SaentisGulden@CONTRACT-ADDRESS --network rinkeby
 ```
 
-If the verification was successful, you will see the result:
+If the verification was successful, you will see the following result:
 ```bash
 Verifying SantisGulden@0x10c35227901F2D1D19067E7c5798CF745e360dBc
 Pass - Verified: https://rinkeby.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc#contracts
 Successfully verified 1 contract(s).
 ```
 
-For more information, see [here] (https://github.com/rkalis/truffle-plugin-verify).
+For more information, see [here](https://github.com/rkalis/truffle-plugin-verify).
+> *Note:* The smart contract `SaentisGulden.sol` does include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment).
 
 ## Interaction
 If you deployed the smart contract succefully, you are now able to interact with it.
 
-### Local Interaction with the Truffle CLI
+### Local Interaction With the Truffle CLI
 To start the Truffle JavaScript console, please run:
 ```
 truffle develop
@@ -98,6 +99,9 @@ The smart contract `SaentisGulden.sol` has been deployed across all the major te
 
 ## References
 [1] https://docs.openzeppelin.com/contracts/4.x/erc20
+
 [2] https://github.com/rkalis/truffle-plugin-verify
+
 [3] https://www.trufflesuite.com/ganache
+
 [4] https://www.trufflesuite.com/truffle
