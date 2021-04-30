@@ -1,5 +1,12 @@
 # Changelog
 
+## 30-04-2021
+
+### Changed
+- The contract symbol was changed from "SDG" to "SGD".
+- Deployed the updated contract to the major test networks (Rinkeby, Ropsten, Kovan and Goerli). Due that I updated the README.md (paragraph Test Deployments) with the new contract addresses.
+- Corrected a type in the README.md
+
 ## 25-04-2021
 
 ### Added

@@ -58,7 +58,7 @@ Copy the contract address and verify the contract right away so that you can int
 truffle run verify SaentisGulden@CONTRACT-ADDRESS --network rinkeby
 ```
 
-If the verification was successful, you will see the following result:
+If the verification was successful, you will see a similar result as follows:
 ```bash
 Verifying SantisGulden@0x10c35227901F2D1D19067E7c5798CF745e360dBc
 Pass - Verified: https://rinkeby.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc#contracts
@@ -92,10 +92,10 @@ Go to the corresponding Etherscan link, e.g. https://rinkeby.etherscan.io/addres
 
 ## Test Deployments
 The smart contract `SaentisGulden.sol` has been deployed across all the major test networks:
-- **Rinkeby:** [0xc3F76Ab84f9493B6cd1f8E6E9d24C69F295395Ae](https://rinkeby.etherscan.io/address/0xc3f76ab84f9493b6cd1f8e6e9d24c69f295395ae)
-- **Ropsten:** [0x8327931af8ADF326cC1bD1cAb5720A8c9606990c](https://ropsten.etherscan.io/address/0x8327931af8adf326cc1bd1cab5720a8c9606990c)
-- **Kovan:** [0xA2869D16B6187DEB70DCfA1A2c6149ADa6D10d3C](https://kovan.etherscan.io/address/0xa2869d16b6187deb70dcfa1a2c6149ada6d10d3c)
-- **Goerli:** [0xeB741f8826a3B516C80cA3aD3A5Da3a56B972FA4](https://goerli.etherscan.io/address/0xeb741f8826a3b516c80ca3ad3a5da3a56b972fa4)
+- **Rinkeby:** [0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3](https://rinkeby.etherscan.io/address/0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3)
+- **Ropsten:** [0x10c35227901F2D1D19067E7c5798CF745e360dBc](https://ropsten.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc)
+- **Kovan:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://kovan.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
+- **Goerli:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://goerli.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
 
 ## References
 [1] https://docs.openzeppelin.com/contracts/4.x/erc20

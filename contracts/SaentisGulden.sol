@@ -10,7 +10,7 @@ contract SaentisGulden is ERC20, ERC20Burnable, Pausable, AccessControl {
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
-    constructor() ERC20("Saentis Gulden", "SDG") {
+    constructor() ERC20("Saentis Gulden", "SGD") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _setupRole(PAUSER_ROLE, msg.sender);
         _mint(msg.sender, 100000 * 10 ** decimals());
