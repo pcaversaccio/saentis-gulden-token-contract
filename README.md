@@ -107,8 +107,8 @@ The smart contract `SaentisGulden.sol` has been deployed to the SwissDLT network
 > Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
 
 <sup>*</sup> Remix deployment configuration: 
-- Compiler: Solidity version `0.8.0+commit.c7dfd78e`;
-- Language: Solidity;
+- Compiler: `0.8.0+commit.c7dfd78e`;
+- Language: `Solidity`;
 - EVM Version: `compiler default`;
 - Enable optimization: `200`;
 - Only the smart contract `SaentisGulden.sol` was used for compilation and deployment. Remix imported the dependencies successfully (see [here](https://remix-ide.readthedocs.io/en/latest/import.html) how this works in the background with the `.deps` folder);
