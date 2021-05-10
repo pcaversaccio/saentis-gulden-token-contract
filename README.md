@@ -105,6 +105,7 @@ The smart contract `SaentisGulden.sol` has been deployed to the SwissDLT network
 - Contract admin: [0x7de729bc151084C3F455Dbc03E7842919565D23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084C3F455Dbc03E7842919565D23e)
 - Contract Application Binary Interface (ABI): Can be downloaded from snippet https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/12. This file was copied from Remix after compilation.
 > *Note 1:* Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
+
 > *Note 2:* Remix uses checksummed addresses for the `At Address` button and if it's invalid the button is disabled. Always use checksummed addresses with Remix! One way to handle this is by using [EthSum](https://ethsum.netlify.app/). The checksum algorithm is laid out in full detail [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md). 
 
 <sup>*</sup> Remix deployment configuration: 
