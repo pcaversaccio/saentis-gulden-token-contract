@@ -22,7 +22,7 @@ truffle compile
 To deploy the contract on your local Ganache blockchain, you must first install the software on your computer. Follow the installation [guide](https://www.trufflesuite.com/ganache).
 
 Once you installed the local blockchain, you can create a workspce. This is described [here](https://www.trufflesuite.com/docs/ganache/workspaces/creating-workspaces).
-> *Note:* We have observed that Truffle and Ganache do not use the same default RPC configuration. The easiest way to align is to adjust Ganache's server hostname, port, and network ID with Truffle's configurations (check the file `truffle-config.js`).
+> **Note:** We have observed that Truffle and Ganache do not use the same default RPC configuration. The easiest way to align is to adjust Ganache's server hostname, port, and network ID with Truffle's configurations (check the file `truffle-config.js`).
 
 Once you are setup, just run: 
 ```
