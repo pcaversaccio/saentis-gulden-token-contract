@@ -3,22 +3,22 @@
 ## 08-05-2021
 
 ### Added
-The smart contract `SaentisGulden.sol` has been deployed to production with [Remix](http://remix.ethereum.org/) and signed with the Säntis Gulden hardware wallet (Ledger Nano S):
+The smart contract `SaentisGulden.sol` has been deployed to production with [Remix](http://remix.ethereum.org/) and signed with the Säntis Gulden hardware wallet ([Ledger Nano S](https://shop.ledger.com/products/ledger-nano-s)):
 - [SwissDLT Block Explorer](https://swissdlt.appswithlove.net/)
 - Contract creation transaction hash: [0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
 - Contract address: [0x263dc7587abe19595f7d7db378ee7ac2a773cf69](https://swissdlt.appswithlove.net/address/0x263dc7587abe19595f7d7db378ee7ac2a773cf69)
 - Contract admin: [0x7de729bc151084c3f455dbc03e7842919565d23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084c3f455dbc03e7842919565d23e)
 
 ### Changed
-- Updated README with additional block explorer links to the contract address & contract admin address.
-- Updated `package-lock.json` file.
+- Updated README with additional block explorer links to the contract address & contract admin address;
+- Updated `package-lock.json` file;
 
 ## 30-04-2021
 
 ### Changed
-- The contract symbol was changed from "SDG" to "SGD".
-- Deployed the updated contract to the major test networks (Rinkeby, Ropsten, Kovan and Goerli). Due that I updated the README.md (paragraph Test Deployments) with the new contract addresses.
-- Corrected a typo in the README.md
+- The contract symbol was changed from `SDG` to `SGD`;
+- Deployed the updated contract to the major test networks (Rinkeby, Ropsten, Kovan and Goerli). Due that I updated the README.md (paragraph Test Deployments) with the new contract addresses;
+- Corrected a typo in the README;
 
 ## 25-04-2021
 
