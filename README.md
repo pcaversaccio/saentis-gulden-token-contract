@@ -66,7 +66,7 @@ Successfully verified 1 contract(s).
 ```
 
 For more information, see [here](https://github.com/rkalis/truffle-plugin-verify).
-> *Note:* The smart contract `SaentisGulden.sol` does include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment).
+> **Note:** The smart contract `SaentisGulden.sol` does include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment).
 
 ## Interaction
 If you deployed the smart contract succefully, you are now able to interact with it.
@@ -101,12 +101,12 @@ The smart contract `SaentisGulden.sol` has been deployed across all the major te
 The smart contract `SaentisGulden.sol` has been deployed to the SwissDLT network with [Remix<sup>*</sup> ](http://remix.ethereum.org/) and signed with the Säntis Gulden hardware wallet (Ledger Nano S):
 - [SwissDLT Block Explorer](https://swissdlt.appswithlove.net/)
 - Contract creation transaction hash: [0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
-- Contract address: [0x263DC7587aBE19595f7d7db378EE7aC2A773CF69](https://swissdlt.appswithlove.net/address/0x263DC7587aBE19595f7d7db378EE7aC2A773CF69)
-- Contract admin: [0x7de729bc151084C3F455Dbc03E7842919565D23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084C3F455Dbc03E7842919565D23e)
+- **Contract address:** [0x263DC7587aBE19595f7d7db378EE7aC2A773CF69](https://swissdlt.appswithlove.net/address/0x263DC7587aBE19595f7d7db378EE7aC2A773CF69)
+- **Contract admin:** [0x7de729bc151084C3F455Dbc03E7842919565D23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084C3F455Dbc03E7842919565D23e)
 - Contract Application Binary Interface (ABI): Can be downloaded from snippet https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/12. This file was copied from Remix after compilation.
-> *Note 1:* Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
+> **Note 1:** Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
 
-> *Note 2:* Remix uses checksummed addresses for the `At Address` button and if it's invalid the button is disabled. Always use checksummed addresses with Remix! One way to handle this is by using [EthSum](https://ethsum.netlify.app/). The checksum algorithm is laid out in full detail [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md). 
+> **Note 2:** Remix uses checksummed addresses for the `At Address` button and if it's invalid the button is disabled. Always use checksummed addresses with Remix! One way to handle this is by using [EthSum](https://ethsum.netlify.app/). The checksum algorithm is laid out in full detail [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md). 
 
 <sup>*</sup> Remix deployment configuration: 
 - Compiler: `0.8.0+commit.c7dfd78e`;
