@@ -103,7 +103,8 @@ The smart contract `SaentisGulden.sol` has been deployed to the SwissDLT network
 - Contract creation transaction hash: [0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
 - Contract address: [0x263dc7587abe19595f7d7db378ee7ac2a773cf69](https://swissdlt.appswithlove.net/address/0x263dc7587abe19595f7d7db378ee7ac2a773cf69)
 - Contract admin: [0x7de729bc151084c3f455dbc03e7842919565d23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084c3f455dbc03e7842919565d23e)
-- Contract Application Binary Interface (ABI): Can be downloaded from snippet https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/12. This file was copied from remix after compilation.
+- Contract Application Binary Interface (ABI): Can be downloaded from snippet https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/12. This file was copied from Remix after compilation.
+> Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
 
 <sup>*</sup> Remix deployment configuration: 
 - Compiler: Solidity version `0.8.0`;
