@@ -1,5 +1,21 @@
 # Changelog
 
+## 01-07-2021
+
+### Added
+- Updated README with information about the new `permit` method as well as implemented a new version structure with respect to the deployments;
+- Deployed Säntis Gulden contract `v2.0` to Rinkeby with the contract address [0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6);
+- Added ABI version 2 (with `permit` functionality) as snippet [here](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/13);
+- Added `sign-data.js` file in order to generate the required function data used by the new `permit` method;
+
+### Changed
+- Updated Solidity compiler version in `truffle-config.js` to `0.8.6`;
+- Updated `package.json` file with URL reference to where to file a new issue;
+- Removed `SaentisGulden_flat.sol` file from repository;
+
+### Fixed
+- Fixed some formatting in the README;
+
 ## 08-05-2021
 
 ### Added
@@ -38,13 +54,13 @@ Furthermore, the following additions have been implemented:
 - The smart contract `SaentisGulden.sol` does not anymore support the extension `ERC20Snapshot` since this is not required in our use case;
 - The smart contract `SaentisGulden.sol` does now include a `premint` functionality in the constructor that creates an initial amount of 100'000 tokens for the deployer (no need anymore to separately call `mint` after the deployment);
 - In addition to some small wording fixes, the README has been updated with the information regarding the test deployments;
-- Removed `package-lock.json` from `.gitignore` since npm itself recommends committing the `package-lock.json` file. See [here](https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json).
+- Removed `package-lock.json` from `.gitignore` since npm itself recommends committing the `package-lock.json` file. See [here](https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json);
 
 ### Fixed
 - Changed naming from `SantisGulden` to `SaentisGulden`;
-- `build` folder is now part of the `.gitignore`. I implemented the recommended OpenZeppelin `.gitignore` available [here](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/.gitignore).
+- `build` folder is now part of the `.gitignore`. I implemented the recommended OpenZeppelin `.gitignore` available [here](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/.gitignore);
 
 ## 23-04-2021
 
 ### Added
-- Deployed Säntis Gulden Contract V 1.0 to Rinkeby with the contract address [0x10c35227901F2D1D19067E7c5798CF745e360dBc](https://rinkeby.etherscan.io/address/0x10c35227901f2d1d19067e7c5798cf745e360dbc)
+- Deployed Säntis Gulden contract `v1.0` to Rinkeby with the contract address [0x10c35227901F2D1D19067E7c5798CF745e360dBc](https://rinkeby.etherscan.io/address/0x10c35227901f2d1d19067e7c5798cf745e360dbc);
