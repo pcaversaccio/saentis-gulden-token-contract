@@ -6,6 +6,11 @@
 - Updated README with a section on unit tests;
 - Added `helper.js` file in the context of the refactoring of `sign-data.js`;
 - Unit tests for `ERC20Permit` are now available under `draft-ERC20Permit.test.js`. You can run the tests with `npx hardhat test`;
+- The following contracts have been deployed across all the major test networks:
+  - **Rinkeby:** [0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6)
+  - **Ropsten:** [0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3](https://ropsten.etherscan.io/address/0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3)
+  - **Kovan:** [0x95Ae9Af89643a60DE620727CEd783FAF609832d6](https://kovan.etherscan.io/address/0x95Ae9Af89643a60DE620727CEd783FAF609832d6)
+  - **Goerli:** [0x8749A22918430fc598B3F48E04625B371B567F0c](https://goerli.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c)
 
 ### Changed
 - Updated `package.json` file with version number `2.0.0` as well as included the hardhat dependencies;

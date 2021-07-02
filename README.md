@@ -110,9 +110,9 @@ The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis
 
 ### Version 2 (With `permit` Functionality)
 - **Rinkeby:** [0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6)
-- **Ropsten:** TBD
-- **Kovan:** TBD
-- **Goerli:** TBD
+- **Ropsten:** [0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3](https://ropsten.etherscan.io/address/0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3)
+- **Kovan:** [0x95Ae9Af89643a60DE620727CEd783FAF609832d6](https://kovan.etherscan.io/address/0x95Ae9Af89643a60DE620727CEd783FAF609832d6)
+- **Goerli:** [0x8749A22918430fc598B3F48E04625B371B567F0c](https://goerli.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c)
 
 ## Production Deployments on SwissDLT
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed to the SwissDLT network with [Remix<sup>*</sup> ](http://remix.ethereum.org) and signed with the Säntis Gulden hardware wallet (Ledger Nano S):
@@ -140,7 +140,7 @@ The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis
   - EVM Version: `compiler default`;
   - Enable optimization: `200`;
   - Only the smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) was used for compilation and deployment. Remix imported the dependencies successfully (see [here](https://remix-ide.readthedocs.io/en/latest/import.html) how this works in the background with the `.deps` folder);
-- **Version 2 (Without `permit` Functionality)**
+- **Version 2 (With `permit` Functionality)**
   - Compiler: `0.8.6+commit.11564f7e`;
   - Language: `Solidity`;
   - EVM Version: `compiler default`;
