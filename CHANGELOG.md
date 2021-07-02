@@ -1,5 +1,19 @@
 # Changelog
 
+## 02-07-2021
+
+### Added
+- Updated README with a section on unit tests;
+- Added `helper.js` file in the context of the refactoring of `sign-data.js`;
+- Unit tests for `ERC20Permit` are now available under `draft-ERC20Permit.test.js`. You can run the tests with `npx hardhat test`;
+
+### Changed
+- Updated `package.json` file with version number `2.0.0` as well as included the hardhat dependencies;
+- Refactored `sign-data.js` file;
+
+### Fixed
+- Fixed wrong name and type problem for `version` in `data-config.json`;
+
 ## 01-07-2021
 
 ### Added

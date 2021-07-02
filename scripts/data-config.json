@@ -3,40 +3,50 @@
         "verifyingContract": "0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
-        "name": "SaentisGulden",
-        "version": 1,
+        "name": "Saentis Gulden",
+        "symbol": "SGD",
+        "version": "1",
+        "domainSeperator": "0xbb82dca404f0f746f24cc7aab8e2720dfebe26cb2f7b0938dd82851d75870622",
         "network_id": 4
     },
     "ropsten": {
         "verifyingContract": "TBD",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
-        "name": "SaentisGulden",
-        "version": 1,
+        "name": "Saentis Gulden",
+        "symbol": "SGD",
+        "version": "1",
+        "domainSeperator": "TBD",
         "network_id": 3
     },
     "kovan": {
         "verifyingContract": "TBD",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
-        "name": "SaentisGulden",
-        "version": 1,
+        "name": "Saentis Gulden",
+        "symbol": "SGD",
+        "version": "1",
+        "domainSeperator": "TBD",
         "network_id": 42
     },
     "goerli": {
         "verifyingContract": "TBD",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
-        "name": "SaentisGulden",
-        "version": 1,
+        "name": "Saentis Gulden",
+        "symbol": "SGD",
+        "version": "1",
+        "domainSeperator": "TBD",
         "network_id": 5
     },
     "swissdlt": {
         "verifyingContract": "TBD",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
-        "name": "SaentisGulden",
-        "version": 1,
+        "name": "Saentis Gulden",
+        "symbol": "SGD",
+        "version": "1",
+        "domainSeperator": "TBD",
         "network_id": 999
     }
 }
