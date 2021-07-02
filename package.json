@@ -1,7 +1,7 @@
 {
   "name": "saentis-gulden-token-contract",
   "version": "2.0.0",
-  "description": "This is Säntis Guldens ERC-20 preset smart contract, whose tokens are used as vouchers in their ecosystem.",
+  "description": "This is Säntis Gulden's ERC-20 smart contract, whose tokens are used as vouchers in their ecosystem.",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -20,7 +20,7 @@
     "smartcontract",
     "saentis",
     "gulden",
-    "btcs",
+    "bcts",
     "ethereum",
     "erc20",
     "awl"
