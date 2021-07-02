@@ -68,8 +68,8 @@ truffle run verify SaentisGulden@CONTRACT-ADDRESS --network rinkeby
 
 If the verification was successful, you will see a similar result as follows:
 ```bash
-Verifying SantisGulden@0x10c35227901F2D1D19067E7c5798CF745e360dBc
-Pass - Verified: https://rinkeby.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc#contracts
+Verifying SaentisGulden@0x8749A22918430fc598B3F48E04625B371B567F0c
+Pass - Verified: https://rinkeby.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c#contracts
 Successfully verified 1 contract(s).
 ```
 
