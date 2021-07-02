@@ -44,11 +44,13 @@ To deploy the smart contract to [Rinkeby](https://rinkeby.etherscan.io), you nee
 3. Create a new [Infura project](https://infura.io) and copy the project key into `secrets.json`.
 4. Create a [Etherscan](https://etherscan.io) account and copy the API key to `secrets.json`.
 The file will look like the following (make sure to always [`.gitignore`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/.gitignore) it!):
-```
+```json
 {
     "seedPhrase": "drip voice crush ...",
-    "projectId": "a657e3934de84d64b27a256079a3b8a2",
-    "etherscanKey": "RQFAFV4DE1H75PT5KXVUFFYBWS82AXI59E"
+    "privateKey": "0c7342ea3cdcc0...",
+    "owner": "0x3854Ca47Abc6...",
+    "projectId": "a657e3934de84d...",
+    "etherscanKey": "RQFAFV4DE1H75P..."
 }
 ```
 
