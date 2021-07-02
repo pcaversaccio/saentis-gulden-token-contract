@@ -88,12 +88,12 @@ truffle develop
 ```
 
 In the console, you can create an instance of the provided contract by typing:
-```
+```javascript
 let i = await SantisGulden.deployed()
 ```
 
 You can use the instance variable to call functions like symbol:
-```
+```javascript
 i.symbol()
 ```
 
