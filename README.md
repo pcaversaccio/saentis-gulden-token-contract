@@ -100,7 +100,7 @@ i.symbol()
 ```
 
 ### Rinkeby
-Go to the corresponding Etherscan link, e.g. https://rinkeby.etherscan.io/address/`<CONTRACTADDRESS>`#code. You are able to invoke READ and WRITE functions on the contract.
+Go to the corresponding Etherscan link, e.g. https://rinkeby.etherscan.io/address/CONTRACTADDRESS#code. You are able to invoke READ and WRITE functions on the contract.
 
 ## Test Deployments
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed across all the major test networks:
