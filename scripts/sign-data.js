@@ -14,8 +14,8 @@ const { EIP712Domain } = require('./helper.js'); // Add some helpers
 // Load the Infura project ID, the private key & address for the `owner` parameter needed for the signature
 const { projectId, privateKey, owner } = require('./../secrets.json');
 
-const web3 = new Web3(`https://rinkeby.infura.io/v3/${projectId}`); // Initiate the web3 object using the Infura project ID
-const chain = 'rinkeby'; // Define the chain for which the data should be generated
+const chain = 'goerli'; // Define the chain for which the data should be generated
+const web3 = new Web3(`https://${chain}.infura.io/v3/${projectId}`); // Initiate the web3 object using the Infura project ID
 const tokenAddress = config[chain].verifyingContract; // Set the deployed token contract address
 const tokenContract = new web3.eth.Contract(contractAbi, tokenAddress); // Initiate the web3 contract object
 const chainId = config[chain].network_id; // Defining the chain ID (e.g. Rinkeby, Ropsten, Ethereum Mainnet)
