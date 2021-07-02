@@ -63,7 +63,7 @@ If the deployment was successful, you will get the final deployment result:
 
 Copy the contract address and verify the contract right away so that you can interact with it. Run the following command:
 ```
-truffle run verify SaentisGulden@CONTRACT-ADDRESS --network rinkeby
+truffle run verify SaentisGulden@<CONTRACTADDRESS> --network rinkeby
 ```
 
 If the verification was successful, you will see a similar result as follows:
