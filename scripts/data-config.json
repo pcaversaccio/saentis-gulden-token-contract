@@ -1,7 +1,7 @@
 {
     "rinkeby": {
         "verifyingContract": "0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6",
-        "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
+        "spenderAddress": "0x292122Fe21Fdb9B3B84841A11fBDb574E3D09b97",
         "deadline": 1909147011,
         "name": "Saentis Gulden",
         "symbol": "SGD",
