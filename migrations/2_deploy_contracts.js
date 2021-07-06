@@ -1,4 +1,4 @@
-const SaentisGulden = artifacts.require("SaentisGulden");
+const SaentisGulden = artifacts.require('SaentisGulden');
 
 module.exports = function (deployer) {
   deployer.deploy(SaentisGulden);

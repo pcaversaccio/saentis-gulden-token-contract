@@ -1,5 +1,14 @@
 # Changelog
 
+## 06-07-2021
+
+### Added
+- Added [ESLint](https://eslint.org) to the project using [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/.eslintrc)'s configurations;
+- Added [Solhint](https://protofire.github.io/solhint) to the project using [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/.solhint.json)'s configurations;
+
+### Changed
+- The double quotation marks `""` in all JavaScript scripts have been changed to single quotation marks `''` for general consistency;
+
 ## 02-07-2021
 
 ### Added
@@ -38,8 +47,8 @@
 ## 08-05-2021
 
 ### Added
-The smart contract `SaentisGulden.sol` has been deployed to production with [Remix](http://remix.ethereum.org/) and signed with the Säntis Gulden hardware wallet ([Ledger Nano S](https://shop.ledger.com/products/ledger-nano-s)):
-- [SwissDLT Block Explorer](https://swissdlt.appswithlove.net/)
+The smart contract `SaentisGulden.sol` has been deployed to production with [Remix](http://remix.ethereum.org) and signed with the Säntis Gulden hardware wallet ([Ledger Nano S](https://shop.ledger.com/products/ledger-nano-s)):
+- [SwissDLT Block Explorer](https://swissdlt.appswithlove.net)
 - Contract creation transaction hash: [0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
 - Contract address: [0x263dc7587abe19595f7d7db378ee7ac2a773cf69](https://swissdlt.appswithlove.net/address/0x263dc7587abe19595f7d7db378ee7ac2a773cf69)
 - Contract admin: [0x7de729bc151084c3f455dbc03e7842919565d23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084c3f455dbc03e7842919565d23e)
