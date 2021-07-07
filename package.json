@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@gitlab.appswithlove.net:22222/saentis-gulden/saentis-gulden-token-contract.git"
+    "url": "git+https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract.git"
   },
   "bugs": {
     "url": "https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/issues"
