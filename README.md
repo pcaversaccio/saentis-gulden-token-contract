@@ -110,31 +110,31 @@ Go to the corresponding Etherscan link, e.g. https://rinkeby.etherscan.io/addres
 ## Test Deployments
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed across all the major test networks:
 ### Version 1 (Without `permit` Functionality)
-- **Rinkeby:** [0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3](https://rinkeby.etherscan.io/address/0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3)
-- **Ropsten:** [0x10c35227901F2D1D19067E7c5798CF745e360dBc](https://ropsten.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc)
-- **Kovan:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://kovan.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
-- **Goerli:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://goerli.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
+- **Rinkeby:** [`0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3`](https://rinkeby.etherscan.io/address/0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3)
+- **Ropsten:** [`0x10c35227901F2D1D19067E7c5798CF745e360dBc`](https://ropsten.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc)
+- **Kovan:** [`0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE`](https://kovan.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
+- **Goerli:** [`0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE`](https://goerli.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
 
 ### Version 2 (With `permit` Functionality)
-- **Rinkeby:** [0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6)
-- **Ropsten:** [0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3](https://ropsten.etherscan.io/address/0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3)
-- **Kovan:** [0x95Ae9Af89643a60DE620727CEd783FAF609832d6](https://kovan.etherscan.io/address/0x95Ae9Af89643a60DE620727CEd783FAF609832d6)
-- **Goerli:** [0x8749A22918430fc598B3F48E04625B371B567F0c](https://goerli.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c)
+- **Rinkeby:** [`0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6`](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6)
+- **Ropsten:** [`0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3`](https://ropsten.etherscan.io/address/0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3)
+- **Kovan:** [`0x95Ae9Af89643a60DE620727CEd783FAF609832d6`](https://kovan.etherscan.io/address/0x95Ae9Af89643a60DE620727CEd783FAF609832d6)
+- **Goerli:** [`0x8749A22918430fc598B3F48E04625B371B567F0c`](https://goerli.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c)
 
 ## Production Deployments on SwissDLT
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed to the SwissDLT network with [Remix<sup>*</sup> ](http://remix.ethereum.org) and signed with the Säntis Gulden hardware wallet (Ledger Nano S):
 ### Version 1 (Without `permit` Functionality)
 - [SwissDLT Block Explorer](https://swissdlt.appswithlove.net)
-- Contract creation transaction hash: [0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
-- **Contract address:** [0x263DC7587aBE19595f7d7db378EE7aC2A773CF69](https://swissdlt.appswithlove.net/address/0x263DC7587aBE19595f7d7db378EE7aC2A773CF69)
-- **Contract admin:** [0x7de729bc151084C3F455Dbc03E7842919565D23e](https://swissdlt.appswithlove.net/address/0x7de729bc151084C3F455Dbc03E7842919565D23e)
+- Contract creation transaction hash: [`0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd`](https://swissdlt.appswithlove.net/tx/0x857f538e8476cebc7d5b22863c30494e713bf05cb09aac005d69fdff79e606cd)
+- **Contract address:** [`0x263DC7587aBE19595f7d7db378EE7aC2A773CF69`](https://swissdlt.appswithlove.net/address/0x263DC7587aBE19595f7d7db378EE7aC2A773CF69)
+- **Contract admin:** [`0x7de729bc151084C3F455Dbc03E7842919565D23e`](https://swissdlt.appswithlove.net/address/0x7de729bc151084C3F455Dbc03E7842919565D23e)
 - Contract Application Binary Interface (ABI): Can be downloaded from the [snippet](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/12). This file was copied from Remix after compilation.
 
 ### Version 2 (With `permit` Functionality)
 - [SwissDLT Block Explorer](https://swissdlt.appswithlove.net)
-- Contract creation transaction hash: TBD
-- **Contract address:** TBD
-- **Contract admin:** TBD
+- Contract creation transaction hash: [`0x8454a6db1a37f6d237f275aaf317074999f9bc2eedc65c4c91d6dbc9845c778a`](https://swissdlt.appswithlove.net/tx/0x8454a6db1a37f6d237f275aaf317074999f9bc2eedc65c4c91d6dbc9845c778a)
+- **Contract address:** [`0x44020AA6840E06f0caAb0Bcf6a1D8352f963dB83`](https://swissdlt.appswithlove.net/address/0x44020AA6840E06f0caAb0Bcf6a1D8352f963dB83)
+- **Contract admin:** [`0x67E6c8a3d6b9eCF1e58b74FF66C5e80Eb55FBD73`](https://swissdlt.appswithlove.net/address/0x67E6c8a3d6b9eCF1e58b74FF66C5e80Eb55FBD73)
 - Contract Application Binary Interface (ABI): Can be downloaded from the [snippet](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/snippets/13). This file was copied from Remix after compilation.
 > **Note 1:** Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
 

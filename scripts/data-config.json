@@ -40,13 +40,13 @@
         "network_id": 5
     },
     "swissdlt": {
-        "verifyingContract": "TBD",
+        "verifyingContract": "0x44020AA6840E06f0caAb0Bcf6a1D8352f963dB83",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
         "name": "Saentis Gulden",
         "symbol": "SGD",
         "version": "1",
-        "domainSeperator": "TBD",
+        "domainSeperator": "0x68a29d63e64a18b99d30a6df4b728478a76d0a7f848deab0e398e405646d785b",
         "network_id": 999
     }
 }
